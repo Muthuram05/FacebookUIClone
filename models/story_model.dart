@@ -1,5 +1,5 @@
 import 'package:meta/meta.dart';
-import 'package:intern/models/models.dart';
+import 'package:flutter_facebook_responsive_ui/models/models.dart';
 
 class Story {
   final User user;
@@ -7,8 +7,8 @@ class Story {
   final bool isViewed;
 
   const Story({
-    required this.user,
-    required this.imageUrl,
+    @required this.user,
+    @required this.imageUrl,
     this.isViewed = false,
   });
 }
